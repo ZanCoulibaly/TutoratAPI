@@ -125,7 +125,7 @@ public class UserServiceImp implements UserService{
         ecole.setAddresse(utulisateur.getAddresse());
         ecole.setNom(utulisateur.getNom());
         ecole.setNumero(utulisateur.getNumero());
-        ecole.setPassword(utulisateur.getPassword());
+        //ecole.setPassword(utulisateur.getPassword());
         ecole.setEmail(utulisateur.getEmail());
         ecole.setSite(utulisateur.getSite());
         ecoleRepository.save(ecole);
@@ -137,7 +137,7 @@ public class UserServiceImp implements UserService{
         user.setAddresse(tuteur.getAddresse());
         user.setNumero(tuteur.getNumero());
         user.setNom(tuteur.getNom());
-        user.setPassword(tuteur.getPassword());
+        //user.setPassword(tuteur.getPassword());
         user.setAnciennete(tuteur.getAnciennete());
         user.setEtablissement(tuteur.getEtablissement());
         user.setSpecialite(tuteur.getSpecialite());
@@ -152,7 +152,7 @@ public class UserServiceImp implements UserService{
         user.setAddresse(eleve.getAddresse());
         user.setNom(eleve.getNom());
         user.setNumero(eleve.getNumero());
-        user.setPassword(eleve.getPassword());
+        //user.setPassword(eleve.getPassword());
         user.setPrenom(eleve.getPrenom());
         user.setClasse(eleve.getClasse());
         user.setCour(eleve.getCour());
@@ -171,7 +171,7 @@ public class UserServiceImp implements UserService{
         user.setNom(parent.getNom());
         user.setPrenom(parent.getPrenom());
         user.setTravail(parent.getTravail());
-        user.setPassword(parent.getPassword());
+        //user.setPassword(parent.getPassword());
         parentRepository.save(user);
     }
 
